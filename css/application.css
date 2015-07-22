@@ -75,3 +75,23 @@ hr.fancy-line, hr.fancy-line:before {
 body, hr.fancy-line:after {
     background: #f4f4f4;
 }
+
+
+/*@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+
+#glasses {
+	height: 80px;
+	margin-top: 13em;
+	margin-left: 2em;
+
+}
+#cigar {
+	height: 130px;
+	margin-left: 13em;
+	margin-top: 6em;
+}
+*/
+ }
