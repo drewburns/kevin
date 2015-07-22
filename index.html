@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kevin Fiddler</title>
+    <link href='http://fonts.googleapis.com/css?family=Bowlby+One+SC' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css"/>
@@ -20,15 +21,25 @@
             <a href="http://ebay.com"> <i class="fi-shopping-cart"></i> </a>
         </h1>
         <hr class="fancy-line"></hr>
-        <div id="steve" class="large-6 small-10 small-centered large-centered columns ">
-            <img class="animated slideInDown " id="glasses" src="img/glasses.png">
-            <img class="animated fadeInUpBig" id="cigar" src="img/cigar.png">
+        <div id="main">
+            <img class="large-12 small-12 small-centered large-centered columns" id="steve" src="img/steve.gif">
+             <img class="large-12 small-12 small-centered large-centered columns" id="picture"src="img/steve1.png">
         </div>
+
     </div>
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
   <script>
     $(document).foundation();
+    $(function() {
+    // setTimeout() function will be fired after page is loaded
+    // it will wait for 5 sec. and then will fire
+    // $("#successMessage").hide() function
+    setTimeout(function() {
+        $("#steve").hide();
+        $("#picture").show();
+    }, 3000);
+});
   </script>
 
   </body>

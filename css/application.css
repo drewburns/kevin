@@ -1,28 +1,18 @@
 h1 {
 	text-align: center;
+	font-family: 'Bowlby One SC', cursive;
+}
+#main {
+	margin-top: 50px;
 }
 #steve {
-	height: 500px;
-	background-image: url(../img/steve.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
+	height: 400px;
 }
-#glasses {
-	height: 80px;
-	margin-top: 13em;
-	margin-left: 2em;
-	-webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2s;
-  -webkit-animation-iteration-count: 1;
-}
-#cigar {
-	height: 130px;
-	margin-left: 13em;
-	margin-top: 6em;
-	-webkit-animation-duration: 1s;
-  -webkit-animation-delay: 3s;
-  -webkit-animation-iteration-count: 1;
+#picture {
+	height: 400px;
+	margin-left: 12%;
+	width: 80%;
+	display: none;
 }
 
 i {
@@ -76,13 +66,3 @@ body, hr.fancy-line:after {
     background: #f4f4f4;
 }
 
-
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) 
-and (orientation : portrait) { 
-
-body {
-	background-color: red;
-}
- }
